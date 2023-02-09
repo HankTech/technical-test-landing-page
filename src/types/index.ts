@@ -1,3 +1,4 @@
+export type ArticleCategory = "productos" | "recetas" | "consejos";
 export interface ArticlesTypes {
   id?: number;
   createdAt?: string;
@@ -6,4 +7,11 @@ export interface ArticlesTypes {
   image: string;
   content?: string;
   url?: string;
+}
+
+export interface NewsletterTypes {
+  firstname: string;
+  lastname: string;
+  email: string;
+  phone: string;
 }
