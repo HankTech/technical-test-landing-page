@@ -40,7 +40,7 @@ function ContactUs() {
                 </p>
               )}
               {errors?.firstname?.message && (
-                <p role="alert" className="{styles.errorMessage}">
+                <p role="alert" className="text-red-700 text-xs text-center mt-2">
                   {errors?.firstname.message}
                 </p>
               )}
