@@ -10,6 +10,7 @@ import {ArticlesTypes} from '../types'
 //  components
 import Hero from '@/components/Hero'
 import OurArticles from '@/components/OurArticles/OurArticles'
+import ContactUs from '@/components/ContactUs/ContactUs'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <main className="">
         <Hero />
         <OurArticles />
+        <ContactUs />
       </main>
     </>
   )
