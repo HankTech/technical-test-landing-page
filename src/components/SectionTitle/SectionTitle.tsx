@@ -11,8 +11,8 @@ type SectionTitleProps = {
 function SectionTitle({title}: SectionTitleProps) {
   return (
 
-    <div className='flex flex-col m-auto w-[520px]'>
-    <h2 className='font-Caveat text-[5rem] font-bold text-[#24272A] text-center z-10'>{title}</h2>
+    <div className='flex flex-col m-auto w-[520px] mb-20'>
+    <h2 className='font-Caveat text-[5rem] font-bold text-[#24272A] text-center z-10 opacity-90'>{title}</h2>
     <Image
       className='mt-[-4rem] opacity-50'
       src={brush}
