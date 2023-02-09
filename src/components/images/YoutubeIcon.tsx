@@ -3,8 +3,8 @@ import { SVGProps } from "react"
 
 const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width="3.875rem"
-    height="3.875rem"
+    width={props.width || "3.875rem"}
+    height={props.height || "3.875rem"}
     fill="none"
     {...props}
   >
